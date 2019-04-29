@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bae4d6d2-eda1-4439-bcdc-c57f101e4bf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/MyClient1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/zookeeper/MyWathcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/zookeeper/MyZookeeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/zookeeper/ZookeeperAcl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/test/java/com/zookeeper/MyWathcherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/test/java/com/zookeeper/MyWathcherTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/test/java/com/zookeeper/MyZookeeperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/test/java/com/zookeeper/ZookeeperAclTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/CuratorCrud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/CuratorLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/WkLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/WukongLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/zkclient/MyZkSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/zkclient/ZkClientCrud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/zkclient/ZkClientWatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zookeeper-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-project/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/MyClient1.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,30 +36,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="806" />
-          <entry key="xml" value="183" />
+          <entry key="java" value="812" />
+          <entry key="txt" value="104" />
+          <entry key="xml" value="193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="806" />
-          <entry key="XML" value="183" />
+          <entry key="JAVA" value="812" />
+          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="XML" value="193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="19" />
+          <entry key="java" value="30" />
+          <entry key="pom" value="1" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="30" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
     </session>
@@ -70,104 +70,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/server/maven/repository/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9-sources.jar!/org/apache/zookeeper/ZooKeeper.java">
+        <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/WukongLockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="642" column="17" lean-forward="true" selection-start-line="642" selection-start-column="17" selection-end-line="642" selection-end-column="17" />
-              <folding>
-                <element signature="e#28167#28168#0" expanded="true" />
-                <element signature="e#28213#28214#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/server/maven/repository/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9-sources.jar!/org/apache/zookeeper/data/Stat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/server/maven/repository/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9-sources.jar!/org/apache/zookeeper/CreateMode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/server/maven/repository/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9-sources.jar!/org/apache/zookeeper/ZooDefs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/zookeeper/MyWathcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="10" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="205">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/zookeeper/ZookeeperAcl.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="346">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper-project/src/test/java/com/zookeeper/ZookeeperAclTest.java">
+        <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/CuratorLockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper-project/src/test/java/com/zookeeper/MyWathcherTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper-project/src/test/java/com/zookeeper/MyWathcherTest1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="23" selection-start-line="8" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/zookeeper/MyZookeeper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="107" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="178">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -199,14 +123,21 @@
         <option value="$PROJECT_DIR$/zookeeper-project/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/demo/ZookeepeConnectTest.java" />
         <option value="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/zookeeper/MyZookeeper.java" />
-        <option value="$PROJECT_DIR$/zookeeper-project/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-project/src/test/java/com/zookeeper/MyZookeeperTest.java" />
         <option value="$PROJECT_DIR$/zookeeper-project/src/test/java/com/zookeeper/MyWathcherTest.java" />
         <option value="$PROJECT_DIR$/zookeeper-project/src/test/java/com/zookeeper/MyWathcherTest1.java" />
         <option value="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/zookeeper/MyWathcher.java" />
         <option value="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/zookeeper/ZookeeperAcl.java" />
         <option value="$PROJECT_DIR$/zookeeper-project/src/test/java/com/zookeeper/ZookeeperAclTest.java" />
+        <option value="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/zkclient/MyZkSerializer.java" />
+        <option value="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/zkclient/ZkClientCrud.java" />
+        <option value="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/zkclient/ZkClientWatcher.java" />
+        <option value="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/CuratorCrud.java" />
+        <option value="$PROJECT_DIR$/zookeeper-project/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/CuratorLockTest.java" />
+        <option value="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/WkLock.java" />
+        <option value="$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/WukongLockTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -310,31 +241,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="register-center-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="register-center-project" type="462c0819:PsiDirectoryNode" />
               <item name="zookeeper-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="register-center-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="register-center-project" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="register-center-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="register-center-project" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="curatorclient" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -347,14 +265,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556534665729" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556547100831" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -490,8 +408,16 @@
       <option name="presentableId" value="Default" />
       <updated>1556454120572</updated>
       <workItem from="1556454125873" duration="1441000" />
-      <workItem from="1556511640865" duration="9153000" />
+      <workItem from="1556511640865" duration="11255000" />
     </task>
+    <task id="LOCAL-00001" summary="zookeeper完成对node 操作，完成对watch操作，但是有一点不理解，为什么 getData exist getChildren 对于取消监听不起作用&#10;完成acl 的登陆与设置权限等操作">
+      <created>1556534766988</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556534766988</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -527,7 +453,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10594000" />
+    <option name="totallyTimeSpent" value="12696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1456" height="876" extended-state="6" />
@@ -539,7 +465,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.23054755" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.23054755" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -550,7 +476,7 @@
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.39196676" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.18975069" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -573,18 +499,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zookeeper完成对node 操作，完成对watch操作，但是有一点不理解，为什么 getData exist getChildren 对于取消监听不起作用&#10;完成acl 的登陆与设置权限等操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="zookeeper完成对node 操作，完成对watch操作，但是有一点不理解，为什么 getData exist getChildren 对于取消监听不起作用&#10;完成acl 的登陆与设置权限等操作" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/eureka-project/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/MyClient1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -658,20 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-project/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/server/maven/repository/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9-sources.jar!/org/apache/zookeeper/common/PathUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -690,16 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="8" column="23" selection-start-line="8" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/zookeeper/MyZookeeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="107" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,6 +644,90 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/MyClient1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/zookeeper/MyZookeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/zkclient/MyZkSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/zkclient/ZkClientCrud.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="86" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/zkclient/ZkClientWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="86" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/server/maven/repository/org/apache/curator/curator-client/4.0.0/curator-client-4.0.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1701" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-project/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/CuratorCrud.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/WkLock.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/CuratorLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-project/src/main/java/com/zookeeper/client/curatorclient/WukongLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
